@@ -1,0 +1,258 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../scss/_partials/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../scss/_partials/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../scss/_partials/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../scss/_partials/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../scss/_partials/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../scss/_partials/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../scss/_partials/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 6, ../scss/main.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 10, ../scss/main.scss */
+html {
+  -webkit-text-size-adjust: 100%;
+  font-size: 62.5%;
+}
+
+/* line 14, ../scss/main.scss */
+body {
+  position: relative;
+  font-family: "roboto";
+  font-size: 20px;
+}
+
+/* line 19, ../scss/main.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 22, ../scss/main.scss */
+.navigation {
+  background-color: #7dc242;
+  width: 100%;
+}
+/* line 25, ../scss/main.scss */
+.navigation ul {
+  text-align: right;
+}
+/* line 28, ../scss/main.scss */
+.navigation li {
+  display: inline-block;
+  margin-left: 10px;
+}
+/* line 32, ../scss/main.scss */
+.navigation a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+/* line 39, ../scss/main.scss */
+.navigation a:hover {
+  color: #7dc242;
+  background-color: #adf074;
+}
+
+/* line 45, ../scss/main.scss */
+#logo {
+  float: left;
+  padding: 15px;
+}
+
+/* line 49, ../scss/main.scss */
+#heading {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'leaguespartan';
+  font-size: 40px;
+  background-color: #3b66b0;
+}
+
+/* line 56, ../scss/main.scss */
+.img-wrap {
+  text-align: center;
+}
+
+/* line 60, ../scss/main.scss */
+#hero_img {
+  width: 600px;
+  height: 300px;
+}
+
+/* line 64, ../scss/main.scss */
+#flag {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  width: 150px;
+  z-index: 50;
+}
+
+/*.wrapper {
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}*/
+/* line 79, ../scss/main.scss */
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  z-index: 90;
+}
+
+/* line 84, ../scss/main.scss */
+h2 {
+  font-family: 'leaguespartan';
+  font-size: 28px;
+  margin: 10px 0;
+  color: #3b66b0;
+}
+
+/* line 90, ../scss/main.scss */
+#about {
+  padding-bottom: 50px;
+}
+/* line 92, ../scss/main.scss */
+#about span {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+/* line 98, ../scss/main.scss */
+#about p {
+  text-align: left;
+}
+/* line 101, ../scss/main.scss */
+#about h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  padding: 5px;
+}
+/* line 110, ../scss/main.scss */
+#about .button {
+  margin-left: 50%;
+  left: -20px;
+}
+
+/* line 115, ../scss/main.scss */
+#dvd {
+  background-color: white;
+}
+/* line 117, ../scss/main.scss */
+#dvd p {
+  width: 400px;
+  vertical-align: top;
+}
+/* line 123, ../scss/main.scss */
+#dvd ul li {
+  display: inline-block;
+  padding: 5px;
+  vertical-align: top;
+}
+/* line 130, ../scss/main.scss */
+#dvd img {
+  transition: all 0.3s linear;
+}
+/* line 134, ../scss/main.scss */
+#dvd .button {
+  display: inline-block;
+}
+
+/* line 140, ../scss/main.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 143, ../scss/main.scss */
+h3 {
+  font-weight: bold;
+}
+
+/* line 146, ../scss/main.scss */
+.disclaimer {
+  font-size: 15px;
+}
+
+/* line 149, ../scss/main.scss */
+.explainer {
+  margin-bottom: 50px;
+}
+/* line 151, ../scss/main.scss */
+.explainer img {
+  margin: 20px;
+}
+/* line 154, ../scss/main.scss */
+.explainer .ex_text {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  max-width: 650px;
+}

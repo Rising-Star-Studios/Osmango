@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.OSMhead {
+		text-decoration: none;
+		background-image:url(images/Bg_image3.jpg);
+		height: 80px;
+}
+
+.OSMhead a {
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;	
+}
+.OSMhead img {
+	position:relative;
+	top:-15px;
+}
+.drop {
+	padding-top:12px;
+	font-size:16px;
+}
+.drop a:hover {
+	background-color: rgba(115,165,39,0.3);
+}
+.EK {
+ background-color: #d5bbff;
+ padding: 15px;	
+}
+.TSL {
+	background-color: #badfde;
+	padding: 15px;
+}
+.INT {
+	background-color:#D9FFC4;
+	padding: 20px;	
+}
+#international{
+	padding-bottom:20px;	
+}
